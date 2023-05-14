@@ -1,0 +1,7 @@
+<h1>All Flights</h1>
+<ul>
+  <% for (let flight of flights) { %>
+    <li><%= flight.airline %> Flight <%= flight.flightNo %> departs <%= flight.departs %></li>
+  <% } %>
+</ul>
+<a href="/flights/new">Add New Flight</a>
